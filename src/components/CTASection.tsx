@@ -9,7 +9,7 @@ interface CTASectionProps {
 
 export default function CTASection({
   title = 'Need a Residential Electrician?',
-  subtitle = 'Call now and we will connect you with an available residential electrical service provider in your area.',
+  subtitle = 'Call now and we will schedule an expert residential electrician in your area.',
   variant = 'dark',
 }: CTASectionProps) {
   const isDark = variant === 'dark';
@@ -40,7 +40,7 @@ export default function CTASection({
           <div className={`mt-8 flex flex-wrap items-center justify-center gap-6 text-sm ${isDark ? 'text-neutral-400' : 'text-neutral-500'}`}>
             <span className="flex items-center gap-2">
               <Clock className="h-4 w-4" />
-              Connect with local providers
+              Schedule a local electrician
             </span>
             <span className="flex items-center gap-2">
               <MapPin className="h-4 w-4" />

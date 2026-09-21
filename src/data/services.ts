@@ -24,13 +24,13 @@ export const services: ServiceDetail[] = [
     shortTitle: 'Residential Electrician',
     h1: 'Residential Electrician in Miami Gardens, FL',
     metaTitle: 'Residential Electrician Miami Gardens, FL | RSY Electric',
-    metaDescription: 'Connect with a residential electrician in Miami Gardens, FL for safe, reliable home electrical service. Call 305-206-1431 for help today.',
+    metaDescription: 'Hire a residential  in Miami Gardens, FL for safe, reliable home electrical service. Call 305-206-1431 for help today.',
     description: 'Full-service residential electrician serving Miami Gardens homeowners with safe, code-compliant electrical work.',
     image: images.heroElectrician,
     imageAlt: 'Residential electrician examining a home electrical panel in Miami Gardens, Florida',
     icon: 'Home',
     overview:
-      'When you need a residential electrician in Miami Gardens, Florida, RSY Electric helps you connect with experienced local service providers who handle the full range of home electrical needs. From troubleshooting flickering lights to installing new circuits for a kitchen remodel, a qualified residential electrician keeps your home safe, functional, and up to code.',
+      'When you need a residential electrician in Miami Gardens, Florida, RSY Electric provides experienced local electricians who handle the full range of home electrical needs. From troubleshooting flickering lights to installing new circuits for a kitchen remodel, a qualified residential electrician keeps your home safe, functional, and up to code.',
     sections: [
       {
         heading: 'What a Residential Electrician Does for Your Miami Gardens Home',
@@ -38,7 +38,7 @@ export const services: ServiceDetail[] = [
       },
       {
         heading: 'Why Miami Gardens Homeowners Choose Professional Electrical Help',
-        body: 'Electrical work is not a do-it-yourself project. Faulty wiring is one of the leading causes of home fires, and improper installations can lead to shocks, damaged appliances, and failed inspections. By connecting with a qualified residential electrician through RSY Electric, you get someone who understands local codes, pulls permits when needed, and stands behind the quality of the work. Whether you live in a single-family home near Hard Rock Stadium or a townhouse off Miami Gardens Drive, professional electrical service protects your family and your property.',
+        body: 'Electrical work is not a do-it-yourself project. Faulty wiring is one of the leading causes of home fires, and improper installations can lead to shocks, damaged appliances, and failed inspections. By hiring a qualified residential electrician from RSY Electric, you get someone who understands local codes, pulls permits when needed, and stands behind the quality of the work. Whether you live in a single-family home near Hard Rock Stadium or a townhouse off Miami Gardens Drive, professional electrical service protects your family and your property.',
       },
       {
         heading: 'Common Signs You Need a Residential Electrician',
@@ -47,8 +47,8 @@ export const services: ServiceDetail[] = [
     ],
     faqs: [
       {
-        question: 'How do I connect with a residential electrician in Miami Gardens?',
-        answer: 'Call 305-206-1431 and we will help connect you with an available residential electrical service provider serving the Miami Gardens area.',
+        question: 'How do I Hire a residential  in Miami Gardens?',
+        answer: 'Call 305-206-1431 and we will schedule an available residential electrical service provider serving the Miami Gardens area.',
       },
       {
         question: 'What types of homes do residential electricians in Miami Gardens service?',
@@ -73,13 +73,13 @@ export const services: ServiceDetail[] = [
     shortTitle: 'Electrical Repair',
     h1: 'Electrical Repair in Miami Gardens, FL',
     metaTitle: 'Electrical Repair Miami Gardens, FL | Fast Home Electrical Fixes',
-    metaDescription: 'Need electrical repair in Miami Gardens, FL? Connect with local residential electrical repair providers. Call 305-206-1431 for help today.',
+    metaDescription: 'Need electrical repair in Miami Gardens, FL? Schedule our local residential electrical repair providers. Call 305-206-1431 for help today.',
     description: 'Fast, reliable electrical repair for Miami Gardens homes — from faulty outlets to breaker panel issues.',
     image: images.multimeterPanel,
     imageAlt: 'Electrician using a multimeter to diagnose a residential electrical panel in Miami Gardens',
     icon: 'Wrench',
     overview:
-      'Electrical problems in your home can range from a minor nuisance like a dead outlet to a serious safety hazard like a sparking panel. When you need electrical repair in Miami Gardens, Florida, RSY Electric connects you with local residential electrical repair providers who can diagnose the issue and get your home\'s electrical system working safely again.',
+      'Electrical problems in your home can range from a minor nuisance like a dead outlet to a serious safety hazard like a sparking panel. When you need electrical repair in Miami Gardens, Florida, RSY Electric provides local residential electricians who can diagnose the issue and get your home\'s electrical system working safely again.',
     sections: [
       {
         heading: 'Common Residential Electrical Repairs in Miami Gardens',
@@ -87,7 +87,7 @@ export const services: ServiceDetail[] = [
       },
       {
         heading: 'The Repair Process for Your Home',
-        body: 'When you connect with a residential electrical repair provider through RSY Electric, the process typically starts with a thorough diagnostic to identify the root cause of the problem. Once the issue is found, the electrician explains what needs to be repaired, provides a clear scope of work, and completes the repair using code-compliant materials. Whether it is replacing a damaged outlet, fixing a loose connection in a junction box, or repairing a circuit that keeps tripping, the goal is a safe, lasting fix.',
+        body: 'When you Hire a residential  repair provider through RSY Electric, the process typically starts with a thorough diagnostic to identify the root cause of the problem. Once the issue is found, the electrician explains what needs to be repaired, provides a clear scope of work, and completes the repair using code-compliant materials. Whether it is replacing a damaged outlet, fixing a loose connection in a junction box, or repairing a circuit that keeps tripping, the goal is a safe, lasting fix.',
       },
       {
         heading: 'Don\'t Ignore Electrical Warning Signs',
@@ -97,7 +97,7 @@ export const services: ServiceDetail[] = [
     faqs: [
       {
         question: 'How quickly can I get electrical repair help in Miami Gardens?',
-        answer: 'Call 305-206-1431 and we will connect you with an available residential electrical repair provider in the Miami Gardens area as quickly as possible.',
+        answer: 'Call 305-206-1431 and we will schedule an available residential electrician in the Miami Gardens area as quickly as possible.',
       },
       {
         question: 'What does electrical repair typically involve?',
@@ -122,13 +122,13 @@ export const services: ServiceDetail[] = [
     shortTitle: 'Outlet Repair',
     h1: 'Outlet Repair in Miami Gardens, FL',
     metaTitle: 'Outlet Repair Miami Gardens, FL | GFCI & Receptacle Repair',
-    metaDescription: 'Outlet repair in Miami Gardens, FL for dead, loose, or sparking receptacles. Connect with a residential electrical repair provider. Call 305-206-1431.',
+    metaDescription: 'Outlet repair in Miami Gardens, FL for dead, loose, or sparking receptacles. Hire a residential  repair provider. Call 305-206-1431.',
     description: 'Repair and replacement of dead, loose, or unsafe outlets in Miami Gardens homes.',
     image: images.outletCloseup,
     imageAlt: 'Close-up of residential electrical outlets in a Miami Gardens home',
     icon: 'Plug',
     overview:
-      'Outlets are among the most used parts of your home\'s electrical system, and when one stops working or feels loose, it is more than an inconvenience — it can be a safety hazard. RSY Electric connects Miami Gardens homeowners with residential electrical providers who repair and replace outlets to keep your home safe and functional.',
+      'Outlets are among the most used parts of your home\'s electrical system, and when one stops working or feels loose, it is more than an inconvenience — it can be a safety hazard. RSY Electric provides Miami Gardens homeowners with residential electricians who repair and replace outlets to keep your home safe and functional.',
     sections: [
       {
         heading: 'Signs You Need Outlet Repair',
@@ -154,7 +154,7 @@ export const services: ServiceDetail[] = [
       },
       {
         question: 'How much does outlet repair cost in Miami Gardens?',
-        answer: 'Costs vary depending on the type of outlet and the extent of the repair. Call 305-206-1431 to connect with a local provider who can assess your needs.',
+        answer: 'Costs vary depending on the type of outlet and the extent of the repair. Call 305-206-1431 to schedule an electrician who can assess your needs.',
       },
     ],
     benefits: [
@@ -171,13 +171,13 @@ export const services: ServiceDetail[] = [
     shortTitle: 'Switch Repair',
     h1: 'Switch Repair in Miami Gardens, FL',
     metaTitle: 'Switch Repair Miami Gardens, FL | Light Switch Repair & Replacement',
-    metaDescription: 'Light switch repair in Miami Gardens, FL for flickering, warm, or broken switches. Connect with a residential electrical provider. Call 305-206-1431.',
+    metaDescription: 'Light switch repair in Miami Gardens, FL for flickering, warm, or broken switches. Hire a residential  provider. Call 305-206-1431.',
     description: 'Repair and replacement of faulty light switches in Miami Gardens homes.',
     image: images.lightSwitch,
     imageAlt: 'Modern light switch on a wall in a Miami Gardens residence',
     icon: 'ToggleRight',
     overview:
-      'A light switch that crackles, feels warm, or does not turn on the light reliably is more than annoying — it can indicate a loose connection or worn-out switch that may be unsafe. RSY Electric connects Miami Gardens homeowners with residential electrical providers who repair and replace light switches of all types.',
+      'A light switch that crackles, feels warm, or does not turn on the light reliably is more than annoying — it can indicate a loose connection or worn-out switch that may be unsafe. RSY Electric provides Miami Gardens homeowners with residential electricians who repair and replace light switches of all types.',
     sections: [
       {
         heading: 'Common Switch Problems in Miami Gardens Homes',
@@ -203,7 +203,7 @@ export const services: ServiceDetail[] = [
       },
       {
         question: 'How long does switch repair take?',
-        answer: 'Most switch repairs or replacements take under an hour. Call 305-206-1431 to connect with a local provider.',
+        answer: 'Most switch repairs or replacements take under an hour. Call 305-206-1431 to schedule an electrician.',
       },
     ],
     benefits: [
@@ -220,13 +220,13 @@ export const services: ServiceDetail[] = [
     shortTitle: 'Lighting Installation',
     h1: 'Lighting Installation in Miami Gardens, FL',
     metaTitle: 'Lighting Installation Miami Gardens, FL | Indoor & Outdoor Lighting',
-    metaDescription: 'Lighting installation in Miami Gardens, FL for indoor, outdoor, recessed, and decorative lighting. Connect with a residential electrical provider. Call 305-206-1431.',
+    metaDescription: 'Lighting installation in Miami Gardens, FL for indoor, outdoor, recessed, and decorative lighting. Hire a residential  provider. Call 305-206-1431.',
     description: 'Professional installation of indoor and outdoor lighting for Miami Gardens homes.',
     image: images.pendantLights,
     imageAlt: 'Modern pendant lighting installed in a Miami Gardens home',
     icon: 'Lightbulb',
     overview:
-      'New lighting can transform the look and feel of your home while improving safety and energy efficiency. Whether you want recessed can lights in the living room, pendant lights over the kitchen island, or security floodlights in the backyard, RSY Electric connects Miami Gardens homeowners with residential electrical providers who install lighting of all types.',
+      'New lighting can transform the look and feel of your home while improving safety and energy efficiency. Whether you want recessed can lights in the living room, pendant lights over the kitchen island, or security floodlights in the backyard, RSY Electric provides Miami Gardens homeowners with residential electricians who install lighting of all types.',
     sections: [
       {
         heading: 'Indoor Lighting Installation for Miami Gardens Homes',
@@ -269,13 +269,13 @@ export const services: ServiceDetail[] = [
     shortTitle: 'Electrical Panel Service',
     h1: 'Electrical Panel Service in Miami Gardens, FL',
     metaTitle: 'Electrical Panel Service Miami Gardens, FL | Panel Upgrade & Repair',
-    metaDescription: 'Electrical panel service in Miami Gardens, FL for panel upgrades, breaker replacement, and inspections. Connect with a residential provider. Call 305-206-1431.',
+    metaDescription: 'Electrical panel service in Miami Gardens, FL for panel upgrades, breaker replacement, and inspections. Hire a residential . Call 305-206-1431.',
     description: 'Electrical panel upgrade, repair, and inspection for Miami Gardens homes.',
     image: images.breakerPanel,
     imageAlt: 'Residential circuit breaker panel being serviced in a Miami Gardens home',
     icon: 'Zap',
     overview:
-      'Your electrical panel is the heart of your home\'s electrical system. It distributes power to every circuit and protects your home from overloads. If your panel is outdated, damaged, or too small for your needs, RSY Electric connects Miami Gardens homeowners with residential electrical providers who can upgrade, repair, or inspect your panel.',
+      'Your electrical panel is the heart of your home\'s electrical system. It distributes power to every circuit and protects your home from overloads. If your panel is outdated, damaged, or too small for your needs, RSY Electric provides Miami Gardens homeowners with residential electricians who can upgrade, repair, or inspect your panel.',
     sections: [
       {
         heading: 'When You Need an Electrical Panel Upgrade',
@@ -318,13 +318,13 @@ export const services: ServiceDetail[] = [
     shortTitle: 'Residential Wiring',
     h1: 'Residential Wiring in Miami Gardens, FL',
     metaTitle: 'Residential Wiring Miami Gardens, FL | Home Wiring & Rewiring',
-    metaDescription: 'Residential wiring in Miami Gardens, FL for new circuits, rewiring, and wiring repair. Connect with a residential electrical provider. Call 305-206-1431.',
+    metaDescription: 'Residential wiring in Miami Gardens, FL for new circuits, rewiring, and wiring repair. Hire a residential  provider. Call 305-206-1431.',
     description: 'New wiring, rewiring, and wiring repair for Miami Gardens homes.',
     image: images.wiringExposed,
     imageAlt: 'Exposed residential electrical wiring during a home renovation in Miami Gardens',
     icon: 'Cable',
     overview:
-      'Whether you are building an addition, finishing a garage, or dealing with old and unsafe wiring, RSY Electric connects Miami Gardens homeowners with residential electrical providers who handle every type of home wiring project, from a single new circuit to a whole-house rewire.',
+      'Whether you are building an addition, finishing a garage, or dealing with old and unsafe wiring, RSY Electric provides Miami Gardens homeowners with residential electricians who handle every type of home wiring project, from a single new circuit to a whole-house rewire.',
     sections: [
       {
         heading: 'New Circuit Wiring',
@@ -367,13 +367,13 @@ export const services: ServiceDetail[] = [
     shortTitle: 'Ceiling Fan Installation',
     h1: 'Ceiling Fan Installation in Miami Gardens, FL',
     metaTitle: 'Ceiling Fan Installation Miami Gardens, FL | Ceiling Fan Repair',
-    metaDescription: 'Ceiling fan installation in Miami Gardens, FL for indoor and outdoor fans. Connect with a residential electrical provider. Call 305-206-1431.',
+    metaDescription: 'Ceiling fan installation in Miami Gardens, FL for indoor and outdoor fans. Hire a residential  provider. Call 305-206-1431.',
     description: 'Installation and repair of ceiling fans in Miami Gardens homes.',
     image: images.ceilingFan,
     imageAlt: 'Modern ceiling fan installed in a Miami Gardens home',
     icon: 'Fan',
     overview:
-      'Ceiling fans are essential in South Florida homes, keeping air moving and reducing the load on your air conditioner. Whether you want a new fan in the living room, a replacement for a wobbly fan, or an outdoor-rated fan for the patio, RSY Electric connects Miami Gardens homeowners with residential electrical providers who install and repair ceiling fans.',
+      'Ceiling fans are essential in South Florida homes, keeping air moving and reducing the load on your air conditioner. Whether you want a new fan in the living room, a replacement for a wobbly fan, or an outdoor-rated fan for the patio, RSY Electric provides Miami Gardens homeowners with residential electricians who install and repair ceiling fans.',
     sections: [
       {
         heading: 'Ceiling Fan Installation Basics',
@@ -416,13 +416,13 @@ export const services: ServiceDetail[] = [
     shortTitle: 'EV Charger Installation',
     h1: 'EV Charger Installation in Miami Gardens, FL',
     metaTitle: 'EV Charger Installation Miami Gardens, FL | Home EV Charging Station',
-    metaDescription: 'EV charger installation in Miami Gardens, FL for Level 2 home charging stations. Connect with a residential electrical provider. Call 305-206-1431.',
+    metaDescription: 'EV charger installation in Miami Gardens, FL for Level 2 home charging stations. Hire a residential  provider. Call 305-206-1431.',
     description: 'Level 2 EV charger installation for Miami Gardens homes.',
     image: images.evCharger,
     imageAlt: 'Home EV charger mounted on a wall in a Miami Gardens garage',
     icon: 'BatteryCharging',
     overview:
-      'If you drive an electric vehicle, a Level 2 home charging station lets you charge overnight and start each day with a full battery. RSY Electric connects Miami Gardens homeowners with residential electrical providers who install EV chargers safely and to code.',
+      'If you drive an electric vehicle, a Level 2 home charging station lets you charge overnight and start each day with a full battery. RSY Electric provides Miami Gardens homeowners with residential electricians who install EV chargers safely and to code.',
     sections: [
       {
         heading: 'Level 2 Home Charging Stations',
@@ -440,7 +440,7 @@ export const services: ServiceDetail[] = [
     faqs: [
       {
         question: 'How much does EV charger installation cost in Miami Gardens?',
-        answer: 'Costs vary based on the distance from the panel to the charger, whether a panel upgrade is needed, and the charger model. Call 305-206-1431 to connect with a local provider for an assessment.',
+        answer: 'Costs vary based on the distance from the panel to the charger, whether a panel upgrade is needed, and the charger model. Call 305-206-1431 to schedule an electrician for an assessment.',
       },
       {
         question: 'How long does it take to charge an EV at home?',
@@ -465,13 +465,13 @@ export const services: ServiceDetail[] = [
     shortTitle: 'Electrical Inspection',
     h1: 'Electrical Inspection in Miami Gardens, FL',
     metaTitle: 'Electrical Inspection Miami Gardens, FL | Home Electrical Safety Inspection',
-    metaDescription: 'Electrical inspection in Miami Gardens, FL for home safety, real estate, and insurance. Connect with a residential electrical provider. Call 305-206-1431.',
+    metaDescription: 'Electrical inspection in Miami Gardens, FL for home safety, real estate, and insurance. Hire a residential  provider. Call 305-206-1431.',
     description: 'Whole-home electrical safety inspections for Miami Gardens homeowners.',
     image: images.inspection,
     imageAlt: 'Electrician inspecting residential wiring in a Miami Gardens home',
     icon: 'Search',
     overview:
-      'An electrical inspection gives you a clear picture of your home\'s electrical system — what is safe, what needs attention, and what should be upgraded. RSY Electric connects Miami Gardens homeowners with residential electrical providers who perform thorough electrical safety inspections.',
+      'An electrical inspection gives you a clear picture of your home\'s electrical system — what is safe, what needs attention, and what should be upgraded. RSY Electric provides Miami Gardens homeowners with residential electricians who perform thorough electrical safety inspections.',
     sections: [
       {
         heading: 'When to Get an Electrical Inspection',
@@ -514,13 +514,13 @@ export const services: ServiceDetail[] = [
     shortTitle: 'Surge Protection',
     h1: 'Surge Protection in Miami Gardens, FL',
     metaTitle: 'Surge Protection Miami Gardens, FL | Whole-Home Surge Protection',
-    metaDescription: 'Whole-home surge protection in Miami Gardens, FL for lightning and power surge protection. Connect with a residential electrical provider. Call 305-206-1431.',
+    metaDescription: 'Whole-home surge protection in Miami Gardens, FL for lightning and power surge protection. Hire a residential  provider. Call 305-206-1431.',
     description: 'Whole-home surge protection for Miami Gardens homes.',
     image: images.surgeProtector,
     imageAlt: 'Surge protector device for a Miami Gardens home electrical system',
     icon: 'Shield',
     overview:
-      'South Florida is the lightning capital of the United States, and power surges can damage or destroy your appliances, electronics, and HVAC equipment in an instant. RSY Electric connects Miami Gardens homeowners with residential electrical providers who install whole-home surge protection.',
+      'South Florida is the lightning capital of the United States, and power surges can damage or destroy your appliances, electronics, and HVAC equipment in an instant. RSY Electric provides Miami Gardens homeowners with residential electricians who install whole-home surge protection.',
     sections: [
       {
         heading: 'Why Miami Gardens Homes Need Surge Protection',
@@ -563,13 +563,13 @@ export const services: ServiceDetail[] = [
     shortTitle: 'Generator Electrical Service',
     h1: 'Generator Electrical Service in Miami Gardens, FL',
     metaTitle: 'Generator Electrical Service Miami Gardens, FL | Home Generator Wiring',
-    metaDescription: 'Generator electrical service in Miami Gardens, FL for standby generator wiring and transfer switch installation. Connect with a residential provider. Call 305-206-1431.',
+    metaDescription: 'Generator electrical service in Miami Gardens, FL for standby generator wiring and transfer switch installation. Hire a residential . Call 305-206-1431.',
     description: 'Standby generator wiring and transfer switch installation for Miami Gardens homes.',
     image: images.generator,
     imageAlt: 'Home backup generator for a Miami Gardens residence',
     icon: 'PlugZap',
     overview:
-      'When hurricanes and tropical storms knock out power in Miami Gardens, a home generator keeps your refrigerator, lights, AC, and medical devices running. RSY Electric connects homeowners with residential electrical providers who handle the electrical side of generator installation, including transfer switches and wiring.',
+      'When hurricanes and tropical storms knock out power in Miami Gardens, a home generator keeps your refrigerator, lights, AC, and medical devices running. RSY Electric provides homeowners with residential electricians who handle the electrical side of generator installation, including transfer switches and wiring.',
     sections: [
       {
         heading: 'Standby Generator Electrical Wiring',

@@ -19,7 +19,7 @@ export default function Header() {
       <div className="bg-neutral-900 text-white text-sm hidden md:block">
         <div className="container-page flex items-center justify-between py-2">
           <p className="text-neutral-300">
-            Connecting Miami Gardens homeowners with residential electrical service providers
+            Providing Miami Gardens homeowners with expert residential electrical services
           </p>
           <a
             href={`tel:${BUSINESS.phoneRaw}`}
@@ -44,9 +44,7 @@ export default function Header() {
                 <span className="block font-heading text-lg font-bold text-neutral-900 leading-none">
                   RSY Electric
                 </span>
-                <span className="block text-xs text-neutral-500 leading-none mt-0.5">
-                  Residential Electrical Leads
-                </span>
+
               </div>
             </Link>
 

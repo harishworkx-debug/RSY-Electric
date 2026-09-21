@@ -24,7 +24,7 @@ export default function HomePage() {
     <>
       <SEO
         title="Residential Electrician Miami Gardens, FL | RSY Electric"
-        description="Connect with residential electrical service providers in Miami Gardens, FL. Electrical repair, panel upgrades, EV chargers, lighting, and more. Call 305-206-1431."
+        description="Expert residential electrical services in Miami Gardens, FL. Electrical repair, panel upgrades, EV chargers, lighting, and more. Call 305-206-1431."
         canonical="/"
         schema={faqSchema}
       />
@@ -49,7 +49,7 @@ export default function HomePage() {
               Residential Electrician in Miami Gardens, FL
             </h1>
             <p className="text-lg md:text-xl text-neutral-300 mb-8 leading-relaxed">
-              Connect with local residential electrical service providers for safe, reliable home electrical work. From outlet repair to panel upgrades, find available help for your home.
+              Expert residential electrical services for safe, reliable home electrical work. From outlet repair to panel upgrades, our licensed electricians are here to help.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a href={`tel:${BUSINESS.phoneRaw}`} className="btn-accent text-lg px-8 py-4">
@@ -67,7 +67,7 @@ export default function HomePage() {
               </span>
               <span className="flex items-center gap-2">
                 <Clock className="h-4 w-4 text-accent-400" />
-                Connect with Local Providers
+                Expert Local Electricians
               </span>
               <span className="flex items-center gap-2">
                 <Home className="h-4 w-4 text-accent-400" />
@@ -85,7 +85,7 @@ export default function HomePage() {
             {[
               { icon: Home, label: 'Residential Only', desc: 'No commercial or industrial' },
               { icon: MapPin, label: 'Miami Gardens', desc: 'Main service location' },
-              { icon: Phone, label: 'Call to Connect', desc: 'Find available providers' },
+              { icon: Phone, label: 'Call Now', desc: 'Fast & reliable service' },
               { icon: ShieldCheck, label: 'Safe & Reliable', desc: 'Code-compliant work' },
             ].map((item, i) => (
               <div key={i} className="flex items-center gap-3">
@@ -108,13 +108,13 @@ export default function HomePage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
               <h2 className="text-3xl md:text-4xl font-bold mb-6">
-                Your Connection to Residential Electrical Help in Miami Gardens
+                Your Trusted Residential Electrical Experts in Miami Gardens
               </h2>
               <p className="text-lg text-neutral-600 mb-4 leading-relaxed">
-                RSY Electric helps homeowners in Miami Gardens, Florida find and connect with available residential electrical service providers. Whether you need a simple outlet repair or a full electrical panel upgrade, we connect you with local professionals who can handle the job.
+                RSY Electric provides homeowners in Miami Gardens, Florida with expert residential electrical services. Whether you need a simple outlet repair or a full electrical panel upgrade, our team of licensed professionals can handle the job safely and efficiently.
               </p>
               <p className="text-lg text-neutral-600 mb-6 leading-relaxed">
-                We focus exclusively on residential electrical work — no commercial, industrial, or business services. Just honest, home-focused electrical help for Miami Gardens homeowners and surrounding communities.
+                We focus exclusively on residential electrical work — no commercial, industrial, or business services. Just honest, high-quality home electrical services for Miami Gardens homeowners and surrounding communities.
               </p>
               <div className="space-y-3 mb-8">
                 {[
@@ -166,7 +166,7 @@ export default function HomePage() {
               Residential Electrical Services in Miami Gardens
             </h2>
             <p className="text-lg text-neutral-600">
-              From minor repairs to major upgrades, connect with residential electrical service providers for every home electrical need.
+              From minor repairs to major upgrades, our expert electricians handle every home electrical need.
             </p>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -210,16 +210,16 @@ export default function HomePage() {
             </div>
             <div className="order-1 lg:order-2">
               <h2 className="text-3xl md:text-4xl font-bold mb-6">
-                How RSY Electric Works
+                Our Service Process
               </h2>
               <p className="text-lg text-neutral-600 mb-6 leading-relaxed">
-                RSY Electric is a lead generation and connection service. We help you find available residential electrical service providers in the Miami Gardens area. Here is how it works:
+                At RSY Electric, we make it easy to get your home electrical problems solved quickly and safely. Here is how it works:
               </p>
               <div className="space-y-5">
                 {[
                   { step: '1', title: 'Call Us', desc: 'Call 305-206-1431 and tell us about your residential electrical need.' },
-                  { step: '2', title: 'We Connect You', desc: 'We connect you with an available residential electrical service provider in your area.' },
-                  { step: '3', title: 'Get Help', desc: 'The provider assesses your home electrical issue and performs the work safely.' },
+                  { step: '2', title: 'Schedule Service', desc: 'We schedule a convenient time for our expert electrician to visit your home.' },
+                  { step: '3', title: 'Get It Done', desc: 'Our electrician assesses the issue and performs the work safely and up to code.' },
                 ].map((item) => (
                   <div key={item.step} className="flex gap-4">
                     <div className="flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-full bg-primary-600 text-white font-bold">
@@ -234,7 +234,7 @@ export default function HomePage() {
               </div>
               <a href={`tel:${BUSINESS.phoneRaw}`} className="btn-primary mt-8">
                 <Phone className="h-5 w-5" />
-                Get Connected Today
+                Schedule Service Today
               </a>
             </div>
           </div>
@@ -249,7 +249,7 @@ export default function HomePage() {
               Service Areas in Miami-Dade County
             </h2>
             <p className="text-lg text-neutral-600">
-              We connect homeowners throughout Miami Gardens and surrounding communities with residential electrical service providers.
+              We provide expert residential electrical services to homeowners throughout Miami Gardens and surrounding communities.
             </p>
           </div>
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">

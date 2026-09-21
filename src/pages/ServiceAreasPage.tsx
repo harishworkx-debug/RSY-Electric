@@ -13,7 +13,7 @@ export default function ServiceAreasPage() {
     <>
       <SEO
         title="Service Areas | RSY Electric - Miami Gardens & Surrounding Areas"
-        description="RSY Electric connects homeowners in Miami Gardens, FL and surrounding areas with residential electrical service providers. View all service areas and call 305-206-1431."
+        description="RSY Electric provides homeowners in Miami Gardens, FL and surrounding areas with expert residential electrical services. View all service areas and call 305-206-1431."
         canonical="/service-areas"
       />
 
@@ -33,7 +33,7 @@ export default function ServiceAreasPage() {
               Our Service Areas
             </h1>
             <p className="text-lg text-neutral-300 mb-8 leading-relaxed">
-              RSY Electric connects homeowners throughout Miami-Dade County and northern Broward County with residential electrical service providers. Our main service location is Miami Gardens, Florida, and we serve surrounding communities as well.
+              RSY Electric provides homeowners throughout Miami-Dade County and northern Broward County with expert residential electrical services. Our main service location is Miami Gardens, Florida, and we serve surrounding communities as well.
             </p>
             <a href={`tel:${BUSINESS.phoneRaw}`} className="btn-accent text-lg px-8 py-4">
               <Phone className="h-5 w-5" />
@@ -97,7 +97,7 @@ export default function ServiceAreasPage() {
               All Service Areas
             </h2>
             <p className="text-lg text-neutral-600">
-              We connect homeowners in these communities with residential electrical service providers.
+              We provide expert residential electrical services to homeowners in these communities.
             </p>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">

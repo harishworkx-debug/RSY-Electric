@@ -101,7 +101,7 @@ export default function ServicePage({ slug }: { slug: string }) {
                   Call Now
                 </a>
                 <p className="text-xs text-neutral-500 text-center mt-3">
-                  Connect with a local residential electrical provider
+                  Schedule a local residential electrical service
                 </p>
               </div>
             </div>
@@ -124,7 +124,7 @@ export default function ServicePage({ slug }: { slug: string }) {
 
       <CTASection
         title={`Need ${service.shortTitle} in ${BUSINESS.mainLocation}?`}
-        subtitle="Call now and we will connect you with an available residential electrical service provider."
+        subtitle="Call now and we will schedule an expert residential electrician."
       />
 
       {/* Related services */}
@@ -160,7 +160,7 @@ export default function ServicePage({ slug }: { slug: string }) {
               Serving {BUSINESS.mainLocationFull} and Beyond
             </h2>
             <p className="text-neutral-600">
-              We connect homeowners throughout the area with residential electrical service providers.
+              We provide expert residential electrical services to homeowners throughout the area.
             </p>
           </div>
           <div className="flex flex-wrap justify-center gap-3">

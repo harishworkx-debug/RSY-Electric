@@ -20,8 +20,8 @@ export default function LocationPage({ location, variant }: LocationPageProps) {
     : `Electrical Services ${location.name}, FL | Residential Electrical Services`;
 
   const metaDescription = isElectrician
-    ? `Connect with a residential electrician in ${location.name}, FL for home electrical repair, panel upgrades, and more. Call 305-206-1431.`
-    : `Residential electrical services in ${location.name}, FL — repair, wiring, lighting, panels, and more. Connect with a local provider. Call 305-206-1431.`;
+    ? `Hire a residential electrician in ${location.name}, FL for home electrical repair, panel upgrades, and more. Call 305-206-1431.`
+    : `Residential electrical services in ${location.name}, FL — repair, wiring, lighting, panels, and more. Schedule a local electrician. Call 305-206-1431.`;
 
   const h1 = isElectrician
     ? `Electrician in ${location.fullName}`
@@ -63,8 +63,8 @@ export default function LocationPage({ location, variant }: LocationPageProps) {
             </h1>
             <p className="text-lg text-neutral-300 mb-8 leading-relaxed">
               {isElectrician
-                ? `Looking for a residential electrician in ${location.name}? RSY Electric connects homeowners with available residential electrical service providers in the ${location.name} area. Call now to get connected.`
-                : `Need residential electrical services in ${location.name}? RSY Electric connects homeowners with available residential electrical service providers serving the ${location.name} area.`}
+                ? `Looking for a residential electrician in ${location.name}? RSY Electric provides homeowners with expert residential electrical services in the ${location.name} area. Call now to schedule an electrician.`
+                : `Need residential electrical services in ${location.name}? RSY Electric provides homeowners with expert residential electrical services in the ${location.name} area.`}
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a href={`tel:${BUSINESS.phoneRaw}`} className="btn-accent text-lg px-8 py-4">
@@ -92,12 +92,12 @@ export default function LocationPage({ location, variant }: LocationPageProps) {
               </p>
               <p className="text-lg text-neutral-600 mb-6 leading-relaxed">
                 {isElectrician
-                  ? `If you are a homeowner in ${location.name} and need residential electrical help — whether it is a flickering light, a tripping breaker, or a full panel upgrade — RSY Electric can connect you with an available local service provider. We focus exclusively on residential electrical work.`
-                  : `From electrical repair and outlet replacement to lighting installation and surge protection, we help ${location.name} homeowners find residential electrical service providers for a wide range of home electrical needs.`}
+                  ? `If you are a homeowner in ${location.name} and need residential electrical help — whether it is a flickering light, a tripping breaker, or a full panel upgrade — RSY Electric can send an expert electrician to your home. We focus exclusively on residential electrical work.`
+                  : `From electrical repair and outlet replacement to lighting installation and surge protection, we provide ${location.name} homeowners with a wide range of home electrical services.`}
               </p>
               {location.neighborhoods.length > 0 && (
                 <div>
-                  <h3 className="text-lg font-semibold mb-3">Neighborhoods We Connect With Providers In:</h3>
+                  <h3 className="text-lg font-semibold mb-3">Neighborhoods We Serve:</h3>
                   <div className="flex flex-wrap gap-2">
                     {location.neighborhoods.map((n) => (
                       <span key={n} className="rounded-lg bg-neutral-100 px-3 py-1.5 text-sm text-neutral-700">
@@ -161,7 +161,7 @@ export default function LocationPage({ location, variant }: LocationPageProps) {
                 Residential Electrical Services Available in {location.name}
               </h2>
               <p className="text-lg text-neutral-600">
-                Connect with residential electrical service providers for these common home electrical needs in {location.name}.
+                We provide expert electricians for these common home electrical needs in {location.name}.
               </p>
             </div>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mb-8">
@@ -201,7 +201,7 @@ export default function LocationPage({ location, variant }: LocationPageProps) {
 
       <CTASection
         title={`Need an Electrician in ${location.name}?`}
-        subtitle={`Call now and we will connect you with an available residential electrical service provider in the ${location.name} area.`}
+        subtitle={`Call now and we will schedule an expert residential electrician in the ${location.name} area.`}
       />
 
       {/* Other location links */}
@@ -212,7 +212,7 @@ export default function LocationPage({ location, variant }: LocationPageProps) {
               Other Service Areas Near {location.name}
             </h2>
             <p className="text-neutral-600">
-              We connect homeowners throughout Miami-Dade and northern Broward County with residential electrical service providers.
+              We provide expert residential electrical services to homeowners throughout Miami-Dade and northern Broward County.
             </p>
           </div>
           <div className="flex flex-wrap justify-center gap-3">

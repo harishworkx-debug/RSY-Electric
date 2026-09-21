@@ -18,7 +18,7 @@ export default function Footer() {
               <span className="font-heading text-lg font-bold text-white">RSY Electric</span>
             </div>
             <p className="text-sm leading-relaxed text-neutral-400 mb-4">
-              Connecting Miami Gardens homeowners with residential electrical service providers. We help you find available local providers for your home electrical needs.
+              Providing expert residential electrical services to Miami Gardens homeowners. We handle all your home electrical needs safely and professionally.
             </p>
             <a
               href={`tel:${BUSINESS.phoneRaw}`}
@@ -120,12 +120,12 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* Disclaimer */}
+        {/* About */}
         <div className="mt-12 pt-8 border-t border-neutral-800">
           <div className="rounded-lg bg-neutral-800/50 p-4 md:p-6">
             <p className="text-xs leading-relaxed text-neutral-400">
-              <strong className="text-neutral-300">Residential Lead Generation Disclaimer:</strong>{' '}
-              RSY Electric, Inc is a lead generation and connection service. We help homeowners find and connect with available independent residential electrical service providers in their area. We are not an electrical contractor and do not directly perform electrical work. We do not guarantee the availability of any specific service provider. Any work performed is done by independent providers, and homeowners should verify the qualifications, licensing, and insurance of any provider they engage with. This website focuses exclusively on residential electrical services and does not offer commercial, industrial, or business electrical services.
+              <strong className="text-neutral-300">RSY Electric, Inc:</strong>{' '}
+              We are a dedicated residential electrical service provider serving Miami Gardens and surrounding areas. Our licensed and insured electricians are committed to providing safe, reliable, and high-quality electrical work for your home. From simple repairs to full panel upgrades, we stand behind the quality of our services. This website focuses exclusively on residential electrical services.
             </p>
           </div>
         </div>
