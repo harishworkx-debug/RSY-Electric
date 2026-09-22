@@ -188,7 +188,7 @@ export default function HomePage() {
                     {service.description}
                   </p>
                   <span className="inline-flex items-center gap-1 text-sm font-semibold text-primary-600 group-hover:text-primary-700">
-                    Learn More <ArrowRight className="h-4 w-4 group-hover:translate-x-1 transition-transform" />
+                    {service.shortTitle} <ArrowRight className="h-4 w-4 group-hover:translate-x-1 transition-transform" />
                   </span>
                 </Link>
               );

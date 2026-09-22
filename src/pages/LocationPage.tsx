@@ -143,7 +143,7 @@ export default function LocationPage({ location, variant }: LocationPageProps) {
                   </h3>
                   <p className="text-sm text-neutral-600 mb-3">{s.description}</p>
                   <span className="inline-flex items-center gap-1 text-sm font-semibold text-primary-600">
-                    Learn More <ArrowRight className="h-4 w-4" />
+                    {s.shortTitle} <ArrowRight className="h-4 w-4" />
                   </span>
                 </Link>
               ))}
