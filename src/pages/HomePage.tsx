@@ -24,7 +24,7 @@ export default function HomePage() {
     <>
       <SEO
         title="Residential Electrician Miami Gardens, FL | RSY Electric"
-        description="Expert residential electrical services in Miami Gardens, FL. Electrical repair, panel upgrades, EV chargers, lighting, and more. Call 305-206-1431."
+        description="Expert residential electrical services in Miami Gardens, FL. Electrical repair, panel upgrades, EV chargers, lighting, and more. Call 786-733-0075."
         canonical="/"
         schema={faqSchema}
       />
@@ -217,7 +217,7 @@ export default function HomePage() {
               </p>
               <div className="space-y-5">
                 {[
-                  { step: '1', title: 'Call Us', desc: 'Call 305-206-1431 and tell us about your residential electrical need.' },
+                  { step: '1', title: 'Call Us', desc: 'Call 786-733-0075 and tell us about your residential electrical need.' },
                   { step: '2', title: 'Schedule Service', desc: 'We schedule a convenient time for our expert electrician to visit your home.' },
                   { step: '3', title: 'Get It Done', desc: 'Our electrician assesses the issue and performs the work safely and up to code.' },
                 ].map((item) => (

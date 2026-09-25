@@ -7,7 +7,7 @@ export default function ContactPage() {
     <>
       <SEO
         title="Contact RSY Electric | Connect With a Residential Electrician"
-        description="Contact RSY Electric to connect with a residential electrical service provider in Miami Gardens, FL and surrounding areas. Call 305-206-1431."
+        description="Contact RSY Electric to connect with a residential electrical service provider in Miami Gardens, FL and surrounding areas. Call 786-733-0075."
         canonical="/contact"
       />
 

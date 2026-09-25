@@ -24,7 +24,7 @@ export const services: ServiceDetail[] = [
     shortTitle: 'Residential Electrician',
     h1: 'Residential Electrician in Miami Gardens, FL',
     metaTitle: 'Residential Electrician Miami Gardens, FL | RSY Electric',
-    metaDescription: 'Hire a residential  in Miami Gardens, FL for safe, reliable home electrical service. Call 305-206-1431 for help today.',
+    metaDescription: 'Hire a residential  in Miami Gardens, FL for safe, reliable home electrical service. Call 786-733-0075 for help today.',
     description: 'Full-service residential electrician serving Miami Gardens homeowners with safe, code-compliant electrical work.',
     image: images.heroElectrician,
     imageAlt: 'Residential electrician examining a home electrical panel in Miami Gardens, Florida',
@@ -48,7 +48,7 @@ export const services: ServiceDetail[] = [
     faqs: [
       {
         question: 'How do I Hire a residential  in Miami Gardens?',
-        answer: 'Call 305-206-1431 and we will schedule an available residential electrical service provider serving the Miami Gardens area.',
+        answer: 'Call 786-733-0075 and we will schedule an available residential electrical service provider serving the Miami Gardens area.',
       },
       {
         question: 'What types of homes do residential electricians in Miami Gardens service?',
@@ -73,7 +73,7 @@ export const services: ServiceDetail[] = [
     shortTitle: 'Electrical Repair',
     h1: 'Electrical Repair in Miami Gardens, FL',
     metaTitle: 'Electrical Repair Miami Gardens, FL | Fast Home Electrical Fixes',
-    metaDescription: 'Need electrical repair in Miami Gardens, FL? Schedule our local residential electrical repair providers. Call 305-206-1431 for help today.',
+    metaDescription: 'Need electrical repair in Miami Gardens, FL? Schedule our local residential electrical repair providers. Call 786-733-0075 for help today.',
     description: 'Fast, reliable electrical repair for Miami Gardens homes — from faulty outlets to breaker panel issues.',
     image: images.multimeterPanel,
     imageAlt: 'Electrician using a multimeter to diagnose a residential electrical panel in Miami Gardens',
@@ -97,7 +97,7 @@ export const services: ServiceDetail[] = [
     faqs: [
       {
         question: 'How quickly can I get electrical repair help in Miami Gardens?',
-        answer: 'Call 305-206-1431 and we will schedule an available residential electrician in the Miami Gardens area as quickly as possible.',
+        answer: 'Call 786-733-0075 and we will schedule an available residential electrician in the Miami Gardens area as quickly as possible.',
       },
       {
         question: 'What does electrical repair typically involve?',
@@ -122,7 +122,7 @@ export const services: ServiceDetail[] = [
     shortTitle: 'Outlet Repair',
     h1: 'Outlet Repair in Miami Gardens, FL',
     metaTitle: 'Outlet Repair Miami Gardens, FL | GFCI & Receptacle Repair',
-    metaDescription: 'Outlet repair in Miami Gardens, FL for dead, loose, or sparking receptacles. Hire a residential  repair provider. Call 305-206-1431.',
+    metaDescription: 'Outlet repair in Miami Gardens, FL for dead, loose, or sparking receptacles. Hire a residential  repair provider. Call 786-733-0075.',
     description: 'Repair and replacement of dead, loose, or unsafe outlets in Miami Gardens homes.',
     image: images.outletCloseup,
     imageAlt: 'Close-up of residential electrical outlets in a Miami Gardens home',
@@ -154,7 +154,7 @@ export const services: ServiceDetail[] = [
       },
       {
         question: 'How much does outlet repair cost in Miami Gardens?',
-        answer: 'Costs vary depending on the type of outlet and the extent of the repair. Call 305-206-1431 to schedule an electrician who can assess your needs.',
+        answer: 'Costs vary depending on the type of outlet and the extent of the repair. Call 786-733-0075 to schedule an electrician who can assess your needs.',
       },
     ],
     benefits: [
@@ -171,7 +171,7 @@ export const services: ServiceDetail[] = [
     shortTitle: 'Switch Repair',
     h1: 'Switch Repair in Miami Gardens, FL',
     metaTitle: 'Switch Repair Miami Gardens, FL | Light Switch Repair & Replacement',
-    metaDescription: 'Light switch repair in Miami Gardens, FL for flickering, warm, or broken switches. Hire a residential  provider. Call 305-206-1431.',
+    metaDescription: 'Light switch repair in Miami Gardens, FL for flickering, warm, or broken switches. Hire a residential  provider. Call 786-733-0075.',
     description: 'Repair and replacement of faulty light switches in Miami Gardens homes.',
     image: images.lightSwitch,
     imageAlt: 'Modern light switch on a wall in a Miami Gardens residence',
@@ -203,7 +203,7 @@ export const services: ServiceDetail[] = [
       },
       {
         question: 'How long does switch repair take?',
-        answer: 'Most switch repairs or replacements take under an hour. Call 305-206-1431 to schedule an electrician.',
+        answer: 'Most switch repairs or replacements take under an hour. Call 786-733-0075 to schedule an electrician.',
       },
     ],
     benefits: [
@@ -220,7 +220,7 @@ export const services: ServiceDetail[] = [
     shortTitle: 'Lighting Installation',
     h1: 'Lighting Installation in Miami Gardens, FL',
     metaTitle: 'Lighting Installation Miami Gardens, FL | Indoor & Outdoor Lighting',
-    metaDescription: 'Lighting installation in Miami Gardens, FL for indoor, outdoor, recessed, and decorative lighting. Hire a residential  provider. Call 305-206-1431.',
+    metaDescription: 'Lighting installation in Miami Gardens, FL for indoor, outdoor, recessed, and decorative lighting. Hire a residential  provider. Call 786-733-0075.',
     description: 'Professional installation of indoor and outdoor lighting for Miami Gardens homes.',
     image: images.pendantLights,
     imageAlt: 'Modern pendant lighting installed in a Miami Gardens home',
@@ -269,7 +269,7 @@ export const services: ServiceDetail[] = [
     shortTitle: 'Electrical Panel Service',
     h1: 'Electrical Panel Service in Miami Gardens, FL',
     metaTitle: 'Electrical Panel Service Miami Gardens, FL | Panel Upgrade & Repair',
-    metaDescription: 'Electrical panel service in Miami Gardens, FL for panel upgrades, breaker replacement, and inspections. Hire a residential . Call 305-206-1431.',
+    metaDescription: 'Electrical panel service in Miami Gardens, FL for panel upgrades, breaker replacement, and inspections. Hire a residential . Call 786-733-0075.',
     description: 'Electrical panel upgrade, repair, and inspection for Miami Gardens homes.',
     image: images.breakerPanel,
     imageAlt: 'Residential circuit breaker panel being serviced in a Miami Gardens home',
@@ -318,7 +318,7 @@ export const services: ServiceDetail[] = [
     shortTitle: 'Residential Wiring',
     h1: 'Residential Wiring in Miami Gardens, FL',
     metaTitle: 'Residential Wiring Miami Gardens, FL | Home Wiring & Rewiring',
-    metaDescription: 'Residential wiring in Miami Gardens, FL for new circuits, rewiring, and wiring repair. Hire a residential  provider. Call 305-206-1431.',
+    metaDescription: 'Residential wiring in Miami Gardens, FL for new circuits, rewiring, and wiring repair. Hire a residential  provider. Call 786-733-0075.',
     description: 'New wiring, rewiring, and wiring repair for Miami Gardens homes.',
     image: images.wiringExposed,
     imageAlt: 'Exposed residential electrical wiring during a home renovation in Miami Gardens',
@@ -367,7 +367,7 @@ export const services: ServiceDetail[] = [
     shortTitle: 'Ceiling Fan Installation',
     h1: 'Ceiling Fan Installation in Miami Gardens, FL',
     metaTitle: 'Ceiling Fan Installation Miami Gardens, FL | Ceiling Fan Repair',
-    metaDescription: 'Ceiling fan installation in Miami Gardens, FL for indoor and outdoor fans. Hire a residential  provider. Call 305-206-1431.',
+    metaDescription: 'Ceiling fan installation in Miami Gardens, FL for indoor and outdoor fans. Hire a residential  provider. Call 786-733-0075.',
     description: 'Installation and repair of ceiling fans in Miami Gardens homes.',
     image: images.ceilingFan,
     imageAlt: 'Modern ceiling fan installed in a Miami Gardens home',
@@ -416,7 +416,7 @@ export const services: ServiceDetail[] = [
     shortTitle: 'EV Charger Installation',
     h1: 'EV Charger Installation in Miami Gardens, FL',
     metaTitle: 'EV Charger Installation Miami Gardens, FL | Home EV Charging Station',
-    metaDescription: 'EV charger installation in Miami Gardens, FL for Level 2 home charging stations. Hire a residential  provider. Call 305-206-1431.',
+    metaDescription: 'EV charger installation in Miami Gardens, FL for Level 2 home charging stations. Hire a residential  provider. Call 786-733-0075.',
     description: 'Level 2 EV charger installation for Miami Gardens homes.',
     image: images.evCharger,
     imageAlt: 'Home EV charger mounted on a wall in a Miami Gardens garage',
@@ -440,7 +440,7 @@ export const services: ServiceDetail[] = [
     faqs: [
       {
         question: 'How much does EV charger installation cost in Miami Gardens?',
-        answer: 'Costs vary based on the distance from the panel to the charger, whether a panel upgrade is needed, and the charger model. Call 305-206-1431 to schedule an electrician for an assessment.',
+        answer: 'Costs vary based on the distance from the panel to the charger, whether a panel upgrade is needed, and the charger model. Call 786-733-0075 to schedule an electrician for an assessment.',
       },
       {
         question: 'How long does it take to charge an EV at home?',
@@ -465,7 +465,7 @@ export const services: ServiceDetail[] = [
     shortTitle: 'Electrical Inspection',
     h1: 'Electrical Inspection in Miami Gardens, FL',
     metaTitle: 'Electrical Inspection Miami Gardens, FL | Home Electrical Safety Inspection',
-    metaDescription: 'Electrical inspection in Miami Gardens, FL for home safety, real estate, and insurance. Hire a residential  provider. Call 305-206-1431.',
+    metaDescription: 'Electrical inspection in Miami Gardens, FL for home safety, real estate, and insurance. Hire a residential  provider. Call 786-733-0075.',
     description: 'Whole-home electrical safety inspections for Miami Gardens homeowners.',
     image: images.inspection,
     imageAlt: 'Electrician inspecting residential wiring in a Miami Gardens home',
@@ -514,7 +514,7 @@ export const services: ServiceDetail[] = [
     shortTitle: 'Surge Protection',
     h1: 'Surge Protection in Miami Gardens, FL',
     metaTitle: 'Surge Protection Miami Gardens, FL | Whole-Home Surge Protection',
-    metaDescription: 'Whole-home surge protection in Miami Gardens, FL for lightning and power surge protection. Hire a residential  provider. Call 305-206-1431.',
+    metaDescription: 'Whole-home surge protection in Miami Gardens, FL for lightning and power surge protection. Hire a residential  provider. Call 786-733-0075.',
     description: 'Whole-home surge protection for Miami Gardens homes.',
     image: images.surgeProtector,
     imageAlt: 'Surge protector device for a Miami Gardens home electrical system',
@@ -563,7 +563,7 @@ export const services: ServiceDetail[] = [
     shortTitle: 'Generator Electrical Service',
     h1: 'Generator Electrical Service in Miami Gardens, FL',
     metaTitle: 'Generator Electrical Service Miami Gardens, FL | Home Generator Wiring',
-    metaDescription: 'Generator electrical service in Miami Gardens, FL for standby generator wiring and transfer switch installation. Hire a residential . Call 305-206-1431.',
+    metaDescription: 'Generator electrical service in Miami Gardens, FL for standby generator wiring and transfer switch installation. Hire a residential . Call 786-733-0075.',
     description: 'Standby generator wiring and transfer switch installation for Miami Gardens homes.',
     image: images.generator,
     imageAlt: 'Home backup generator for a Miami Gardens residence',

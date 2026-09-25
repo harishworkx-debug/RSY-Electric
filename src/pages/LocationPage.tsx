@@ -20,8 +20,8 @@ export default function LocationPage({ location, variant }: LocationPageProps) {
     : `Electrical Services ${location.name}, FL | Residential Electrical Services`;
 
   const metaDescription = isElectrician
-    ? `Hire a residential electrician in ${location.name}, FL for home electrical repair, panel upgrades, and more. Call 305-206-1431.`
-    : `Residential electrical services in ${location.name}, FL — repair, wiring, lighting, panels, and more. Schedule a local electrician. Call 305-206-1431.`;
+    ? `Hire a residential electrician in ${location.name}, FL for home electrical repair, panel upgrades, and more. Call 786-733-0075.`
+    : `Residential electrical services in ${location.name}, FL — repair, wiring, lighting, panels, and more. Schedule a local electrician. Call 786-733-0075.`;
 
   const h1 = isElectrician
     ? `Electrician in ${location.fullName}`

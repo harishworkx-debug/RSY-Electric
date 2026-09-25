@@ -13,7 +13,7 @@ export default function ServiceAreasPage() {
     <>
       <SEO
         title="Service Areas | RSY Electric - Miami Gardens & Surrounding Areas"
-        description="RSY Electric provides homeowners in Miami Gardens, FL and surrounding areas with expert residential electrical services. View all service areas and call 305-206-1431."
+        description="RSY Electric provides homeowners in Miami Gardens, FL and surrounding areas with expert residential electrical services. View all service areas and call 786-733-0075."
         canonical="/service-areas"
       />
 

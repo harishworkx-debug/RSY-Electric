@@ -17,7 +17,7 @@ export const homeFaqs: FAQItem[] = [
   {
     question: 'How do I request help with a residential electrical issue?',
     answer:
-      'Call 305-206-1431 and we will schedule an expert residential electrician to visit your home as quickly as possible.',
+      'Call 786-733-0075 and we will schedule an expert residential electrician to visit your home as quickly as possible.',
   },
   {
     question: 'What types of residential electrical services are available?',
@@ -32,7 +32,7 @@ export const homeFaqs: FAQItem[] = [
   {
     question: 'Can I get help with an emergency electrical problem?',
     answer:
-      'Call 305-206-1431 and we will dispatch a residential electrician to help. For immediate safety concerns like sparking or burning smells, evacuate the area and call 911 if there is a fire risk.',
+      'Call 786-733-0075 and we will dispatch a residential electrician to help. For immediate safety concerns like sparking or burning smells, evacuate the area and call 911 if there is a fire risk.',
   },
   {
     question: 'How much do residential electrical services cost in Miami Gardens?',
