@@ -606,6 +606,55 @@ export const services: ServiceDetail[] = [
       'Load calculation for proper sizing',
     ],
   },
+  {
+    slug: 'emergency-electrician-miami-gardens-fl',
+    title: 'Emergency Electrician Miami Gardens',
+    shortTitle: 'Emergency Electrician',
+    h1: 'Emergency Electrician in Miami Gardens, FL',
+    metaTitle: 'Emergency Electrician Miami Gardens, FL | 24/7 Electrical Repair',
+    metaDescription: 'Need an emergency electrician in Miami Gardens, FL? Fast, reliable residential electrical repair for urgent issues. Call 786-733-0075.',
+    description: 'Fast response emergency electrical repair and troubleshooting for Miami Gardens homes.',
+    image: images.multimeterPanel,
+    imageAlt: 'Electrician performing emergency electrical troubleshooting in a Miami Gardens home',
+    icon: 'Zap',
+    overview:
+      'Electrical emergencies don\'t wait for convenient hours. Whether you have lost power, smell burning near an outlet, or have a sparking breaker panel, RSY Electric provides fast, reliable emergency electricians in Miami Gardens. We prioritize your family\'s safety and act quickly to resolve dangerous electrical hazards.',
+    sections: [
+      {
+        heading: 'What Constitutes an Electrical Emergency?',
+        body: 'Not sure if you need an emergency electrician? You should call immediately if you smell burning or electrical smoke, see sparks or arc flashes from an outlet or panel, hear loud buzzing from the breaker box, experience a sudden partial power outage, or if a switch or outlet is hot to the touch. These are signs of serious faults that could lead to electrical fires if left unaddressed.',
+      },
+      {
+        heading: 'Fast Response in Miami Gardens',
+        body: 'When you call RSY Electric for an emergency, we understand that time is of the essence. Our residential electricians arrive equipped with the tools and parts needed to diagnose and repair the most common home electrical emergencies. Our first priority is to secure the hazard and restore safe power to your home.',
+      },
+      {
+        heading: 'Do Not Attempt DIY Emergency Repairs',
+        body: 'In an electrical emergency, the safest thing you can do is turn off the main breaker if it is safe to do so, and call a professional. Attempting to fix a sparking panel or a smoking outlet yourself can result in severe shock or exacerbate the problem. Leave it to a trained residential electrician who knows how to handle live circuits safely.',
+      },
+    ],
+    faqs: [
+      {
+        question: 'When should I call an emergency electrician?',
+        answer: 'Call immediately if you notice burning smells, sparking, loud buzzing from your electrical panel, or if you have a partial or complete power outage that is not utility-related.',
+      },
+      {
+        question: 'What should I do while waiting for the electrician?',
+        answer: 'If it is safe to access your main electrical panel, turn off the main breaker to cut power to the home. Do not touch any sparking or smoking outlets. Call 786-733-0075 right away.',
+      },
+      {
+        question: 'Do you charge more for emergency electrical services?',
+        answer: 'Emergency dispatch fees may apply outside of regular business hours. We always provide clear, upfront pricing before any repair work begins.',
+      },
+    ],
+    benefits: [
+      'Fast response times',
+      'Diagnosis of burning smells and sparking',
+      'Breaker panel troubleshooting',
+      'Restoration of lost power',
+      'Safety hazard mitigation',
+    ],
+  },
 ];
 
 export const serviceIcons: Record<string, any> = {};

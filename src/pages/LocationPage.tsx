@@ -5,6 +5,7 @@ import CTASection from '@/components/CTASection';
 import { BUSINESS, images } from '@/data/business';
 import { services } from '@/data/services';
 import { mainLocation, nearbyLocations, type LocationInfo } from '@/data/locations';
+import { trackCallClick } from '@/utils/tracking';
 
 interface LocationPageProps {
   location: LocationInfo;
@@ -31,12 +32,25 @@ export default function LocationPage({ location, variant }: LocationPageProps) {
     ? `/electrician-${location.slug}`
     : `/electrical-services-${location.slug}`;
 
+  const locationSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'LocalBusiness',
+    name: BUSINESS.name,
+    telephone: BUSINESS.phone,
+    areaServed: {
+      '@type': 'City',
+      name: location.name,
+    },
+    url: `https://rsyelectric.com${canonical}`,
+  };
+
   return (
     <>
       <SEO
         title={metaTitle}
         description={metaDescription}
         canonical={canonical}
+        schema={locationSchema}
       />
 
       {/* Hero */}
@@ -67,7 +81,7 @@ export default function LocationPage({ location, variant }: LocationPageProps) {
                 : `Need residential electrical services in ${location.name}? RSY Electric provides homeowners with expert residential electrical services in the ${location.name} area.`}
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
-              <a href={`tel:${BUSINESS.phoneRaw}`} className="btn-accent text-lg px-8 py-4">
+              <a href={`tel:${BUSINESS.phoneRaw}`} onClick={() => trackCallClick('location-hero')} className="btn-accent text-lg px-8 py-4">
                 <Phone className="h-5 w-5" />
                 Call {BUSINESS.phone}
               </a>
@@ -139,7 +153,7 @@ export default function LocationPage({ location, variant }: LocationPageProps) {
                   className="card p-5 group hover:-translate-y-1 transition-transform"
                 >
                   <h3 className="font-bold text-lg mb-1 group-hover:text-primary-700 transition-colors">
-                    {s.shortTitle}
+                    {s.title}
                   </h3>
                   <p className="text-sm text-neutral-600 mb-3">{s.description}</p>
                   <span className="inline-flex items-center gap-1 text-sm font-semibold text-primary-600">

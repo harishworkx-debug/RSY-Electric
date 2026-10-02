@@ -1,5 +1,5 @@
 export const BUSINESS = {
-  name: 'RSY Electric, Inc',
+  name: 'RSY Electric',
   phone: '786-733-0075',
   phoneRaw: '7867330075',
   mapsUrl: 'https://maps.app.goo.gl/xRmjfrCPc9rY2Wo46',

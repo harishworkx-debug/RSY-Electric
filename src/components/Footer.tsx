@@ -3,6 +3,7 @@ import { Phone, Zap, MapPin, Mail } from 'lucide-react';
 import { BUSINESS } from '@/data/business';
 import { services } from '@/data/services';
 import { mainLocation, nearbyLocations } from '@/data/locations';
+import { trackCallClick } from '@/utils/tracking';
 
 export default function Footer() {
   return (
@@ -22,6 +23,7 @@ export default function Footer() {
             </p>
             <a
               href={`tel:${BUSINESS.phoneRaw}`}
+              onClick={() => trackCallClick('footer-brand')}
               className="inline-flex items-center gap-2 text-accent-400 font-semibold hover:text-accent-300 transition-colors"
             >
               <Phone className="h-4 w-4" />
@@ -101,6 +103,7 @@ export default function Footer() {
                 <Phone className="h-4 w-4 flex-shrink-0 text-primary-400" />
                 <a
                   href={`tel:${BUSINESS.phoneRaw}`}
+                  onClick={() => trackCallClick('footer-contact')}
                   className="text-neutral-400 hover:text-primary-300 transition-colors"
                 >
                   {BUSINESS.phone}
@@ -137,6 +140,7 @@ export default function Footer() {
           </p>
           <div className="flex gap-4 text-xs text-neutral-500">
             <Link to="/service-areas" className="hover:text-neutral-300 transition-colors">Service Areas</Link>
+            <Link to="/blog" className="hover:text-neutral-300 transition-colors">Blog</Link>
             <Link to="/contact" className="hover:text-neutral-300 transition-colors">Contact</Link>
             <Link to="/sitemap.xml" className="hover:text-neutral-300 transition-colors">Sitemap</Link>
           </div>

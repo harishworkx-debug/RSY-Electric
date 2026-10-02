@@ -1,6 +1,7 @@
 import { Phone, MapPin, Clock, Mail, ExternalLink } from 'lucide-react';
 import SEO from '@/components/SEO';
 import { BUSINESS, images } from '@/data/business';
+import { trackCallClick } from '@/utils/tracking';
 
 export default function ContactPage() {
   return (
@@ -29,7 +30,7 @@ export default function ContactPage() {
             <p className="text-lg text-neutral-300 mb-8 leading-relaxed">
               Call now to schedule a service with our expert residential electricians in the Miami Gardens area. We are here to handle all your home electrical needs safely and efficiently.
             </p>
-            <a href={`tel:${BUSINESS.phoneRaw}`} className="btn-accent text-lg px-8 py-4">
+            <a href={`tel:${BUSINESS.phoneRaw}`} onClick={() => trackCallClick('contact-hero')} className="btn-accent text-lg px-8 py-4">
               <Phone className="h-5 w-5" />
               Call {BUSINESS.phone}
             </a>
@@ -56,6 +57,7 @@ export default function ContactPage() {
                     <h3 className="font-semibold text-neutral-900 mb-1">Phone</h3>
                     <a
                       href={`tel:${BUSINESS.phoneRaw}`}
+                      onClick={() => trackCallClick('contact-info')}
                       className="text-lg text-primary-600 hover:text-primary-700 transition-colors"
                     >
                       {BUSINESS.phone}
@@ -135,7 +137,7 @@ export default function ContactPage() {
           <div className="mx-auto max-w-3xl rounded-2xl bg-white border border-neutral-200 p-8 shadow-sm">
             <h2 className="text-2xl font-bold mb-4">Our Commitment</h2>
             <p className="text-neutral-600 leading-relaxed mb-4">
-              RSY Electric, Inc is committed to providing top-quality residential electrical services. Our electricians are fully licensed, insured, and trained to handle everything from minor repairs to major installations with the highest safety standards.
+              RSY Electric is committed to providing top-quality residential electrical services. Our electricians are fully licensed, insured, and trained to handle everything from minor repairs to major installations with the highest safety standards.
             </p>
             <p className="text-neutral-600 leading-relaxed">
               We guarantee professional service and stand behind the work we perform. Your home's safety and your satisfaction are our top priorities. This website focuses exclusively on residential electrical services.

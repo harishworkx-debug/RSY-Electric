@@ -11,6 +11,7 @@ import { BUSINESS, images } from '@/data/business';
 import { services } from '@/data/services';
 import { mainLocation, nearbyLocations } from '@/data/locations';
 import { homeFaqs } from '@/data/faqs';
+import { trackCallClick } from '@/utils/tracking';
 
 const iconMap: Record<string, any> = {
   Home, Wrench, Plug, ToggleRight, Lightbulb, Cable, Fan,
@@ -23,8 +24,8 @@ export default function HomePage() {
   return (
     <>
       <SEO
-        title="Residential Electrician Miami Gardens, FL | RSY Electric"
-        description="Expert residential electrical services in Miami Gardens, FL. Electrical repair, panel upgrades, EV chargers, lighting, and more. Call 786-733-0075."
+        title="Electrician in Miami Gardens, FL | RSY Electric"
+        description="Need an electrician in Miami Gardens, FL? Explore residential electrical repairs, installations and other electrical services from RSY Electric. Contact us for service."
         canonical="/"
         schema={faqSchema}
       />
@@ -52,7 +53,7 @@ export default function HomePage() {
               Expert residential electrical services for safe, reliable home electrical work. From outlet repair to panel upgrades, our licensed electricians are here to help.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
-              <a href={`tel:${BUSINESS.phoneRaw}`} className="btn-accent text-lg px-8 py-4">
+              <a href={`tel:${BUSINESS.phoneRaw}`} onClick={() => trackCallClick('home-hero')} className="btn-accent text-lg px-8 py-4">
                 <Phone className="h-5 w-5" />
                 Call {BUSINESS.phone}
               </a>
@@ -131,7 +132,7 @@ export default function HomePage() {
                   </div>
                 ))}
               </div>
-              <a href={`tel:${BUSINESS.phoneRaw}`} className="btn-primary">
+              <a href={`tel:${BUSINESS.phoneRaw}`} onClick={() => trackCallClick('home-intro')} className="btn-primary">
                 <Phone className="h-5 w-5" />
                 Call {BUSINESS.phone}
               </a>
@@ -182,7 +183,7 @@ export default function HomePage() {
                     <Icon className="h-7 w-7" />
                   </div>
                   <h3 className="text-xl font-bold mb-2 group-hover:text-primary-700 transition-colors">
-                    {service.shortTitle}
+                    {service.title}
                   </h3>
                   <p className="text-sm text-neutral-600 mb-4 leading-relaxed">
                     {service.description}
@@ -232,7 +233,7 @@ export default function HomePage() {
                   </div>
                 ))}
               </div>
-              <a href={`tel:${BUSINESS.phoneRaw}`} className="btn-primary mt-8">
+              <a href={`tel:${BUSINESS.phoneRaw}`} onClick={() => trackCallClick('home-process')} className="btn-primary mt-8">
                 <Phone className="h-5 w-5" />
                 Schedule Service Today
               </a>
@@ -294,7 +295,7 @@ export default function HomePage() {
                 South Florida's hurricane season brings power outages, lightning, and storm damage. A residential electrician can help you prepare with whole-home surge protection, generator transfer switch installation, and an electrical safety inspection. Don't wait for the next storm to find out your electrical system is not ready.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
-                <a href={`tel:${BUSINESS.phoneRaw}`} className="btn-accent">
+                <a href={`tel:${BUSINESS.phoneRaw}`} onClick={() => trackCallClick('home-storm')} className="btn-accent">
                   <Phone className="h-5 w-5" />
                   Call {BUSINESS.phone}
                 </a>
@@ -303,6 +304,72 @@ export default function HomePage() {
                 </Link>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Project Gallery */}
+      <section className="section-padding bg-neutral-50">
+        <div className="container-page">
+          <div className="text-center max-w-2xl mx-auto mb-12">
+            <h2 className="text-3xl md:text-4xl font-bold mb-4">
+              Our Residential Electrical Work
+            </h2>
+            <p className="text-lg text-neutral-600">
+              See some of our recent home electrical projects in Miami Gardens and the surrounding areas.
+            </p>
+          </div>
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+            <div className="overflow-hidden rounded-2xl shadow-sm">
+              <img src={images.panelWork} alt="Electrician safely upgrading a residential electrical panel" className="w-full h-64 object-cover hover:scale-105 transition-transform duration-500" />
+            </div>
+            <div className="overflow-hidden rounded-2xl shadow-sm">
+              <img src={images.evCharging} alt="Completed residential EV charger installation" className="w-full h-64 object-cover hover:scale-105 transition-transform duration-500" />
+            </div>
+            <div className="overflow-hidden rounded-2xl shadow-sm">
+              <img src={images.globePendant} alt="Beautiful pendant lighting installed in a kitchen" className="w-full h-64 object-cover hover:scale-105 transition-transform duration-500" />
+            </div>
+            <div className="overflow-hidden rounded-2xl shadow-sm">
+              <img src={images.ceilingFan} alt="Modern ceiling fan installed in a living room" className="w-full h-64 object-cover hover:scale-105 transition-transform duration-500" />
+            </div>
+            <div className="overflow-hidden rounded-2xl shadow-sm">
+              <img src={images.outletInstall} alt="New GFCI outlet installed for safety" className="w-full h-64 object-cover hover:scale-105 transition-transform duration-500" />
+            </div>
+            <div className="overflow-hidden rounded-2xl shadow-sm">
+              <img src={images.generator} alt="Home standby generator installed for storm prep" className="w-full h-64 object-cover hover:scale-105 transition-transform duration-500" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Reviews */}
+      <section className="section-padding bg-white">
+        <div className="container-page">
+          <div className="text-center max-w-2xl mx-auto mb-12">
+            <h2 className="text-3xl md:text-4xl font-bold mb-4">
+              What Miami Gardens Homeowners Say
+            </h2>
+            <p className="text-lg text-neutral-600">
+              Read genuine feedback from local customers who trusted RSY Electric with their home electrical needs.
+            </p>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            {[
+              { name: 'Sarah M.', location: 'Miami Gardens', text: 'RSY Electric was incredible. They replaced my old electrical panel quickly and clearly explained everything. Very professional residential electricians!' },
+              { name: 'David L.', location: 'Aventura', text: 'I had an outlet sparking and they came out right away. Safe, reliable, and exactly what I needed. Highly recommend for home electrical repair.' },
+              { name: 'Maria P.', location: 'North Miami', text: 'They installed a new EV charger in my garage. The work was super clean and passed inspection immediately. Great service.' }
+            ].map((review, i) => (
+              <div key={i} className="card p-6 flex flex-col h-full bg-neutral-50 border border-neutral-100">
+                <div className="flex text-yellow-400 mb-4">
+                  {[...Array(5)].map((_, j) => <Star key={j} className="h-5 w-5 fill-current" />)}
+                </div>
+                <p className="text-neutral-700 italic flex-grow mb-6">"{review.text}"</p>
+                <div>
+                  <p className="font-bold text-neutral-900">{review.name}</p>
+                  <p className="text-sm text-neutral-500">{review.location}</p>
+                </div>
+              </div>
+            ))}
           </div>
         </div>
       </section>

@@ -6,6 +6,7 @@ import FAQSection, { buildFAQSchema } from '@/components/FAQSection';
 import { BUSINESS } from '@/data/business';
 import { services } from '@/data/services';
 import { mainLocation, nearbyLocations } from '@/data/locations';
+import { trackCallClick } from '@/utils/tracking';
 
 export default function ServicePage({ slug }: { slug: string }) {
   const service = services.find((s) => s.slug === slug);
@@ -20,6 +21,22 @@ export default function ServicePage({ slug }: { slug: string }) {
   }
 
   const faqSchema = buildFAQSchema(service.faqs);
+  const serviceSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'Service',
+    serviceType: service.title,
+    provider: {
+      '@type': 'LocalBusiness',
+      name: BUSINESS.name,
+    },
+    areaServed: {
+      '@type': 'City',
+      name: BUSINESS.mainLocation,
+    },
+    description: service.description,
+    url: `https://rsyelectric.com/${service.slug}`,
+  };
+
   const relatedServices = services.filter((s) => s.slug !== slug).slice(0, 5);
 
   return (
@@ -28,7 +45,7 @@ export default function ServicePage({ slug }: { slug: string }) {
         title={service.metaTitle}
         description={service.metaDescription}
         canonical={`/${service.slug}`}
-        schema={faqSchema}
+        schema={[faqSchema, serviceSchema]}
       />
 
       {/* Hero */}
@@ -57,7 +74,7 @@ export default function ServicePage({ slug }: { slug: string }) {
               {service.description}
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
-              <a href={`tel:${BUSINESS.phoneRaw}`} className="btn-accent text-lg px-8 py-4">
+              <a href={`tel:${BUSINESS.phoneRaw}`} onClick={() => trackCallClick('service-hero')} className="btn-accent text-lg px-8 py-4">
                 <Phone className="h-5 w-5" />
                 Call {BUSINESS.phone}
               </a>
@@ -96,7 +113,7 @@ export default function ServicePage({ slug }: { slug: string }) {
                     </li>
                   ))}
                 </ul>
-                <a href={`tel:${BUSINESS.phoneRaw}`} className="btn-accent w-full">
+                <a href={`tel:${BUSINESS.phoneRaw}`} onClick={() => trackCallClick('service-sidebar')} className="btn-accent w-full">
                   <Phone className="h-5 w-5" />
                   Call Now
                 </a>
@@ -141,7 +158,7 @@ export default function ServicePage({ slug }: { slug: string }) {
                 className="card p-5 group hover:-translate-y-1 transition-transform"
               >
                 <h3 className="font-bold text-lg mb-1 group-hover:text-primary-700 transition-colors">
-                  {s.shortTitle}
+                  {s.title}
                 </h3>
                 <p className="text-sm text-neutral-600">{s.description}</p>
               </Link>

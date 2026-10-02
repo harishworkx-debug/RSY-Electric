@@ -4,6 +4,7 @@ import { Phone, Menu, X, Zap } from 'lucide-react';
 import { BUSINESS } from '@/data/business';
 import { services } from '@/data/services';
 import { mainLocation, nearbyLocations } from '@/data/locations';
+import { trackCallClick } from '@/utils/tracking';
 
 export default function Header() {
   const [mobileOpen, setMobileOpen] = useState(false);
@@ -23,6 +24,7 @@ export default function Header() {
           </p>
           <a
             href={`tel:${BUSINESS.phoneRaw}`}
+            onClick={() => trackCallClick('header-top-bar')}
             className="flex items-center gap-2 font-semibold text-accent-400 hover:text-accent-300 transition-colors"
           >
             <Phone className="h-4 w-4" />
@@ -125,7 +127,14 @@ export default function Header() {
                   isActive('/service-areas') ? 'text-primary-700 bg-primary-50' : 'text-neutral-700 hover:text-primary-700 hover:bg-neutral-50'
                 }`}
               >
-                About
+              </Link>
+              <Link
+                to="/blog"
+                className={`px-3 py-2 rounded-md text-sm font-medium transition-colors ${
+                  isActive('/blog') ? 'text-primary-700 bg-primary-50' : 'text-neutral-700 hover:text-primary-700 hover:bg-neutral-50'
+                }`}
+              >
+                Blog
               </Link>
               <Link
                 to="/contact"
@@ -140,6 +149,7 @@ export default function Header() {
             {/* Call button */}
             <a
               href={`tel:${BUSINESS.phoneRaw}`}
+              onClick={() => trackCallClick('header-desktop-btn')}
               className="btn-accent hidden sm:inline-flex text-sm md:text-base"
             >
               <Phone className="h-4 w-4 md:h-5 md:w-5" />
@@ -215,6 +225,13 @@ export default function Header() {
                   About
                 </Link>
                 <Link
+                  to="/blog"
+                  className="block px-3 py-2 rounded-md text-base font-medium text-neutral-700 hover:bg-primary-50 hover:text-primary-700"
+                  onClick={() => setMobileOpen(false)}
+                >
+                  Blog
+                </Link>
+                <Link
                   to="/contact"
                   className="block px-3 py-2 rounded-md text-base font-medium text-neutral-700 hover:bg-primary-50 hover:text-primary-700"
                   onClick={() => setMobileOpen(false)}
@@ -225,6 +242,7 @@ export default function Header() {
 
               <a
                 href={`tel:${BUSINESS.phoneRaw}`}
+                onClick={() => trackCallClick('header-mobile-btn')}
                 className="btn-accent w-full mt-4"
               >
                 <Phone className="h-5 w-5" />

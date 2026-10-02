@@ -9,9 +9,10 @@ import ServicePage from '@/pages/ServicePage';
 import LocationPage from '@/pages/LocationPage';
 import ContactPage from '@/pages/ContactPage';
 import ServiceAreasPage from '@/pages/ServiceAreasPage';
+import BlogPage from '@/pages/BlogPage';
+import BlogPostPage from '@/pages/BlogPostPage';
 import { services } from '@/data/services';
 import { mainLocation, nearbyLocations } from '@/data/locations';
-
 const allLocations = [mainLocation, ...nearbyLocations];
 
 function NotFoundPage() {
@@ -38,6 +39,8 @@ function App() {
               <Route path="/" element={<HomePage />} />
               <Route path="/contact" element={<ContactPage />} />
               <Route path="/service-areas" element={<ServiceAreasPage />} />
+              <Route path="/blog" element={<BlogPage />} />
+              <Route path="/blog/:slug" element={<BlogPostPage />} />
               {serviceSlugs.map((slug) => (
                 <Route key={slug} path={`/${slug}`} element={<ServicePage slug={slug} />} />
               ))}

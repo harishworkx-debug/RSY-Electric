@@ -5,13 +5,14 @@ interface SEOProps {
   title: string;
   description: string;
   canonical: string;
-  schema?: object;
+  schema?: object | object[];
 }
 
 export default function SEO({ title, description, canonical, schema }: SEOProps) {
   const baseUrl = 'https://rsyelectric.com';
   const fullCanonical = `${baseUrl}${canonical}`;
-  const faqSchema = schema ? JSON.stringify(schema) : undefined;
+  
+  const schemas = schema ? (Array.isArray(schema) ? schema : [schema]) : [];
 
   return (
     <Helmet>
@@ -25,7 +26,13 @@ export default function SEO({ title, description, canonical, schema }: SEOProps)
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:title" content={title} />
       <meta name="twitter:description" content={description} />
-      {faqSchema && <script type="application/ld+json">{faqSchema}</script>}
+      
+      {schemas.map((s, index) => (
+        <script key={index} type="application/ld+json">
+          {JSON.stringify(s)}
+        </script>
+      ))}
+
       <script type="application/ld+json">
         {JSON.stringify({
           '@context': 'https://schema.org',
