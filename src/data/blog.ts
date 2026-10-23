@@ -33,7 +33,7 @@ export const blogPosts: BlogPost[] = [
 </ul>
 
 <h2>Professional Assessment is Key</h2>
-<p>Upgrading a panel is not a DIY job. If you suspect your panel is outdated, schedule a professional inspection with a qualified <a href="/electrical-panel-service-miami-gardens-fl" class="text-primary-600 font-medium hover:underline">electrical panel service</a> provider to evaluate your system's capacity and safety.</p>
+<p>Upgrading a panel is not a DIY job. If you suspect your panel is outdated, schedule a professional inspection with a qualified <a href="/electrical-panel-service-miami-gardens-fl" class="text-primary-600 font-medium hover:underline">electrical panel service</a> provider. Call RSY Electric at 786-733-0075 to evaluate your system's capacity and safety.</p>
     `
   },
   {
@@ -58,7 +58,7 @@ export const blogPosts: BlogPost[] = [
 <p>Similar to a short circuit, a ground fault happens when a hot wire touches a ground wire or the side of a metal outlet box. This is particularly dangerous in wet areas like kitchens and bathrooms, which is why GFCI outlets are required in these locations.</p>
 
 <h2>4. A Bad Breaker</h2>
-<p>Sometimes the problem isn't the wiring, but the breaker itself. Breakers can wear out over time and trip under loads they should be able to handle. A professional electrician can test the breaker and replace it safely.</p>
+<p>Sometimes the problem isn't the wiring, but the breaker itself. Breakers can wear out over time and trip under loads they should be able to handle. A professional electrician can test the breaker and replace it safely. For fast electrical troubleshooting and breaker repair, call RSY Electric at 786-733-0075.</p>
     `
   },
   {
@@ -80,7 +80,7 @@ export const blogPosts: BlogPost[] = [
 <p>The biggest hurdle for many homeowners is their existing electrical panel. A Level 2 charger typically draws between 32 and 40 amps. If you have an older 100-amp panel, you likely won't have the spare capacity to add an EV charger without overloading the system. A professional electrician will perform a load calculation to determine if you need a panel upgrade before moving forward.</p>
 
 <h2>Permits and Safety</h2>
-<p>Installing an EV charger requires pulling a permit and passing a municipal inspection. Never attempt to install high-amperage charging equipment yourself. Always work with a licensed professional for your <a href="/ev-charger-installation-miami-gardens-fl" class="text-primary-600 font-medium hover:underline">EV charger installation</a> to ensure your home and vehicle are protected.</p>
+<p>Installing an EV charger requires pulling a permit and passing a municipal inspection. Never attempt to install high-amperage charging equipment yourself. Always work with a licensed professional for your <a href="/ev-charger-installation-miami-gardens-fl" class="text-primary-600 font-medium hover:underline">EV charger installation</a> to ensure your home and vehicle are protected. Call RSY Electric at 786-733-0075 to schedule an assessment.</p>
     `
   },
   {
@@ -104,7 +104,7 @@ export const blogPosts: BlogPost[] = [
 </ul>
 
 <h2>Upgrading to GFCI</h2>
-<p>If your home still has standard outlets near water sources (kitchens, bathrooms, outdoors), they should be upgraded to Ground Fault Circuit Interrupter (GFCI) outlets to protect against electrical shock. Contact a professional for <a href="/outlet-repair-miami-gardens-fl" class="text-primary-600 font-medium hover:underline">outlet repair</a> and safety upgrades.</p>
+<p>If your home still has standard outlets near water sources (kitchens, bathrooms, outdoors), they should be upgraded to Ground Fault Circuit Interrupter (GFCI) outlets to protect against electrical shock. Contact a professional for <a href="/outlet-repair-miami-gardens-fl" class="text-primary-600 font-medium hover:underline">outlet repair</a> and safety upgrades. Call RSY Electric at 786-733-0075 to replace damaged outlets today.</p>
     `
   },
   {
@@ -123,7 +123,7 @@ export const blogPosts: BlogPost[] = [
 <p>While small power strip surge protectors are good for computers, they cannot stop a massive surge from entering your home through the main power line. A whole-home surge protector is installed directly at your electrical panel. It acts as a gatekeeper, intercepting massive voltage spikes and safely diverting them into the grounding system before they can fry your refrigerator, HVAC system, or smart TVs. Investing in <a href="/surge-protection-miami-gardens-fl" class="text-primary-600 font-medium hover:underline">whole-home surge protection</a> is one of the smartest ways to protect your property.</p>
 
 <h2>Generator Safety</h2>
-<p>When the power goes out, many homeowners rely on portable generators. However, plugging a generator directly into a wall outlet (known as backfeeding) is illegal and incredibly dangerous to line workers. If you plan to use a generator to power your home's circuits, you must have a professional install a <a href="/generator-electrical-service-miami-gardens-fl" class="text-primary-600 font-medium hover:underline">generator transfer switch</a> to safely isolate your home from the utility grid.</p>
+<p>When the power goes out, many homeowners rely on portable generators. However, plugging a generator directly into a wall outlet (known as backfeeding) is illegal and incredibly dangerous to line workers. If you plan to use a generator to power your home's circuits, you must have a professional install a <a href="/generator-electrical-service-miami-gardens-fl" class="text-primary-600 font-medium hover:underline">generator transfer switch</a> to safely isolate your home from the utility grid. Call RSY Electric at 786-733-0075 for storm-ready surge and generator installation.</p>
     `
   }
 ];

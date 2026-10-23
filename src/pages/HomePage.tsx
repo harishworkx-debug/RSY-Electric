@@ -24,8 +24,8 @@ export default function HomePage() {
   return (
     <>
       <SEO
-        title="Electrician in Miami Gardens, FL | RSY Electric"
-        description="Need an electrician in Miami Gardens, FL? Explore residential electrical repairs, installations and other electrical services from RSY Electric. Contact us for service."
+        title="RSY Electric | Residential Electrician in Miami Gardens, FL"
+        description="Need electrical repairs, panel service, lighting, or home wiring in Miami Gardens, FL? Contact RSY Electric. Call 786-733-0075 for service."
         canonical="/"
         schema={faqSchema}
       />
